@@ -1,0 +1,14 @@
+.blog_post {
+  padding: 5px 25px 5px 25px;
+}
+
+.blog_content {
+  text-align: center;
+  border-style: dotted;
+  border-width: 1px 1px 1px 1px;
+  border-color: #005858;
+}
+
+.blog_header {
+  color: #005858;
+}

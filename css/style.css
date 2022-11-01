@@ -1,0 +1,25 @@
+body {
+  background-color: #001218;
+  color: gray;
+  font-family: Verdana;
+}
+
+a:link {
+  color: #003238;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #003238;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #003238;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #003238;
+  text-decoration: none;
+}
