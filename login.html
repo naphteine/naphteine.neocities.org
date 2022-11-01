@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>- naphteine -</title>
+    <link href="/res/main.css" rel="stylesheet" type="text/css" media="all">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/login.html">Login</a></li>
+                <li><a href="/characters.html">Characters</a></li>
+                <li><a href="/series.html">Series</a></li>
+                <li><a href="/moments.html">Moments</a></li>
+                <li><a href="/sleep.html">Sleep</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form>
+            <fieldset>
+                <legend>Please select your preferred contact method:</legend>
+                <div>
+                    <input type="radio" id="contactChoice1" name="contact" value="email">
+                    <label for="contactChoice1">Email</label>
+                    <input type="radio" id="contactChoice2" name="contact" value="phone">
+                    <label for="contactChoice2">Phone</label>
+                    <input type="radio" id="contactChoice3" name="contact" value="mail">
+                    <label for="contactChoice3">Mail</label>
+                </div>
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </fieldset>
+        </form>
+        <pre id="log"></pre>
+
+        <form action="/">
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" minlength="3" maxlength="24" required>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required minlength="8" maxlength="32">
+            <button type="submit">Login</button>
+        </form>
+
+        <a href="/register.html">You don't have an account? Register here!</a>
+
+    </main>
+
+    <footer>
+        naphteine (c) 2015-2022
+    </footer>
+</body>
+
+</html>
