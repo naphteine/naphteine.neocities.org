@@ -1,12 +1,8 @@
 .blog_post {
-  padding: 5px 100px 5px 100px;
-}
-
-.blog_content {
-  text-align: center;
-  border-style: dotted;
-  border-width: 1px 1px 1px 1px;
-  border-color: #005858;
+  margin: 10px 120px 10px 120px;
+  border: 1px solid #174242;
+  padding: 10px 10px 10px 10px;
+  text-align: left;
 }
 
 .blog_header {

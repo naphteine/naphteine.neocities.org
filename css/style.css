@@ -1,7 +1,7 @@
 body {
   background-color: #001016;
-  color: gray;
-  font-family: Verdana;
+  color: #888888;
+  font-family: Georgia;
 }
 
 a:link, a:visited, a:active {
@@ -10,7 +10,8 @@ a:link, a:visited, a:active {
 }
 
 a:hover {
-  color: #004248;
+  /* color: #004248; */
+  color: #005258;
   text-decoration: underline;
 }
 
@@ -19,6 +20,13 @@ ul {
   list-style-type: square;
 }
 
+hr {
+  border-style: dotted;
+  border-width: 1px 1px 1px 1px;
+  border-color: #005858;
+}
+
 .mymy {
-  color: #174242;
+  /* color: #174242; */
+  color: #275252;
 }
