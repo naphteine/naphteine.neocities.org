@@ -1,25 +1,24 @@
 body {
-  background-color: #001218;
+  background-color: #001016;
   color: gray;
   font-family: Verdana;
 }
 
-a:link {
-  color: #003238;
-  text-decoration: none;
-}
-
-a:visited {
-  color: #003238;
+a:link, a:visited, a:active {
+  color: #004248;
   text-decoration: none;
 }
 
 a:hover {
-  color: #003238;
+  color: #004248;
   text-decoration: underline;
 }
 
-a:active {
-  color: #003238;
-  text-decoration: none;
+ul {
+  list-style-position: inside;
+  list-style-type: square;
+}
+
+.mymy {
+  color: #174242;
 }
